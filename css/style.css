@@ -132,6 +132,13 @@ section { scroll-margin-top: calc(var(--header-h) + 10px); }
   border-radius: 2px;
   flex-shrink: 0;
 }
+.logo-init {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: .01em;
+}
 .logo-text {
   font-family: var(--font-head);
   font-weight: 700;
