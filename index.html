@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>АвтоЭксперт — автосервис в Казани · рулевые рейки, АКПП, кузовной ремонт</title>
+  <meta name="description" content="АвтоЭксперт — автотехцентр на ул. Четаева, 16Б, Казань. Ремонт рулевых реек, АКПП/DSG/CVT, кузовной ремонт и покраска, диагностика от 500 ₽. Пн–Сб 9:00–19:00, предварительная запись: +7 (843) 239-31-23.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23C9F31D'/><path d='M14 20h36L22 44h28' stroke='%23101214' stroke-width='6' fill='none'/></svg>">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="header">
+    <div class="container header__in">
+      <a href="#top" class="logo" aria-label="АвтоЭксперт — на главную">
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="26" height="26"><path d="M14 20h36L22 44h28" stroke="currentColor" stroke-width="6" fill="none"/></svg></span>
+        <span class="logo-text">АвтоЭксперт</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#prices" class="nav__link">Цены</a>
+        <a href="#about" class="nav__link">О сервисе</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+        <a href="tel:+78432393123" class="nav__phone">+7 (843) 239-31-23</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#inquiry" class="btn-cta">Записаться <span aria-hidden="true">→</span></a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__in">
+        <p class="eyebrow reveal">Автосервис · Казань</p>
+        <h1 class="hero__title reveal">
+          <span>Ремонт.</span>
+          <span>Диагностика.</span>
+          <span>АвтоЭксперт<em>.</em></span>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__text reveal">
+            АвтоЭксперт — автотехцентр на ул. Четаева, 16Б. Профильные
+            работы: рулевые рейки, АКПП, кузовной ремонт и покраска.
+            Официальный автосервис, работаем по предварительной записи.
+          </p>
+          <div class="hero__actions reveal">
+            <a class="btn-cta" href="#inquiry">Оставить заявку <span aria-hidden="true">→</span></a>
+            <a class="btn-ghost" href="#prices">Прайс-лист</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__media reveal" aria-hidden="true">
+        <img src="images/workshop.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats" aria-label="Ключевые цифры">
+      <div class="container stats__in">
+        <div class="stat reveal" style="--i:0"><b>500 ₽</b><span>Диагностика</span></div>
+        <div class="stat reveal" style="--i:1"><b>1500 ₽</b><span>Ремонт рулевой рейки</span></div>
+        <div class="stat reveal" style="--i:2"><b>2500 ₽</b><span>Ремонт АКПП</span></div>
+        <div class="stat reveal" style="--i:3"><b>2000 ₽</b><span>Снятие / установка рейки</span></div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES / LINEUP ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="split-head reveal">
+          <div class="split-head__text">
+            <p class="eyebrow">Направления</p>
+            <h2 class="h2">Чиним то,<br>что ломается чаще.</h2>
+            <p class="lead">Три профильных направления — от компьютерной диагностики до покраски. Цена и срок — до начала ремонта.</p>
+            <a class="btn-ghost" href="#prices">Весь прайс <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="lineup">
+          <a href="#prices" class="lcard reveal" style="--i:0">
+            <div class="lcard__media"><img src="images/front.jpg" alt=""></div>
+            <div class="lcard__body">
+              <p class="lcard__num">01</p>
+              <h3>Рулевые<br>рейки</h3>
+              <p class="lcard__price">от 1000 ₽</p>
+            </div>
+          </a>
+          <a href="#prices" class="lcard reveal" style="--i:1">
+            <div class="lcard__media"><img src="images/yard.jpg" alt=""></div>
+            <div class="lcard__body">
+              <p class="lcard__num">02</p>
+              <h3>АКПП · DSG · CVT</h3>
+              <p class="lcard__price">от 2500 ₽</p>
+            </div>
+          </a>
+          <a href="#prices" class="lcard reveal" style="--i:2">
+            <div class="lcard__media"><img src="images/kuzov.jpg" alt=""></div>
+            <div class="lcard__body">
+              <p class="lcard__num">03</p>
+              <h3>Кузовной ремонт<br>и покраска</h3>
+              <p class="lcard__price">расчёт после осмотра</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DARK / SPECIALTY ================= -->
+    <section class="dark" id="prices">
+      <div class="dark__bg" aria-hidden="true"><img src="images/gates-dark.jpg" alt=""></div>
+      <div class="container dark__in">
+        <p class="eyebrow eyebrow--lime reveal">Прайс-лист</p>
+        <h2 class="h2 h2--light reveal">Рейки. Коробки.<br>Кузов. Всё по прайсу.</h2>
+        <p class="dark__text reveal">
+          Прайс из карточки на Яндекс.Картах. Итоговая стоимость согласуется
+          до начала работ — дефект показываем, «приговоров» без проверки не выносим.
+        </p>
+
+        <div class="pricelist reveal">
+          <div class="prow" data-name="ремонт акпп dsg cvt коробка">
+            <span>Ремонт АКПП · DSG · CVT</span><i></i><b>2500 ₽</b>
+          </div>
+          <div class="prow" data-name="ремонт корпуса рулевой рейки">
+            <span>Ремонт корпуса рулевой рейки</span><i></i><b>2000 ₽</b>
+          </div>
+          <div class="prow" data-name="снятие установка рулевой рейки">
+            <span>Снятие / установка рулевой рейки</span><i></i><b>2000 ₽</b>
+          </div>
+          <div class="prow" data-name="ремонт рулевой рейки">
+            <span>Ремонт рулевой рейки</span><i></i><b>1500 ₽</b>
+          </div>
+          <div class="prow" data-name="шлифовка вала рулевой рейки">
+            <span>Шлифовка вала рулевой рейки</span><i></i><b>1000 ₽</b>
+          </div>
+          <div class="prow" data-name="ремонт автоэлектрики">
+            <span>Ремонт автоэлектрики</span><i></i><b>500 ₽</b>
+          </div>
+          <div class="prow" data-name="диагностика компьютер">
+            <span>Диагностика</span><i></i><b>500 ₽</b>
+          </div>
+          <p class="pl-empty" id="plEmpty" hidden>Не нашли работу в списке? Позвоните — подскажем: <a href="tel:+78432393123">+7 (843) 239-31-23</a></p>
+        </div>
+
+        <div class="dark__foot reveal">
+          <div class="searchbox">
+            <i data-lucide="search"></i>
+            <input type="search" id="plSearch" placeholder="Найти услугу…" aria-label="Поиск по прайсу">
+          </div>
+          <a class="btn-cta" href="#inquiry">Записаться на ремонт <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SPLIT 1 (approach) ================= -->
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="split__media reveal">
+          <img src="images/facade.jpg" alt="Автосервис АвтоЭксперт — здание на ул. Четаева, 16Б">
+        </div>
+        <div class="split__body">
+          <p class="eyebrow reveal">Подход</p>
+          <h2 class="h2 reveal">Официальный автосервис.<br>Работа по записи.</h2>
+          <p class="lead reveal">
+            Предварительная запись — без очередей, оплата картой, парковка
+            у ворот. Диагностика стационарная и выездная. Ремонтируем
+            отечественные, импортные и грузовые автомобили.
+          </p>
+          <ul class="ticks reveal">
+            <li><i data-lucide="check"></i>Предварительная запись</li>
+            <li><i data-lucide="check"></i>Оплата картой</li>
+            <li><i data-lucide="check"></i>Антикор, сварочные работы, шиномонтаж</li>
+            <li><i data-lucide="check"></i>Выездная диагностика автомобиля</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SPLIT 2 (commercial) ================= -->
+    <section class="section section--tint">
+      <div class="container split split--rev">
+        <div class="split__media reveal">
+          <img src="images/trucks.jpg" alt="Ремонт грузовых автомобилей">
+        </div>
+        <div class="split__body">
+          <p class="eyebrow reveal">Коммерческий транспорт</p>
+          <h2 class="h2 reveal">Берёмся и за грузовые.</h2>
+          <p class="lead reveal">
+            Легковые, импортные, отечественные и грузовые автомобили.
+            Работаем с частными владельцами и организациями.
+          </p>
+          <a class="btn-ghost reveal" href="#inquiry">Оставить заявку <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE (works) ================= -->
+    <section class="marquee" aria-label="Полный список работ">
+      <div class="marquee__track">
+        <span>Шиномонтаж</span><span>Антикор</span><span>Сварочные работы</span><span>Бронирование плёнкой</span><span>Полировка</span><span>Заправка кондиционера</span><span>Выездная диагностика</span><span>Ремонт ГБЦ</span><span>Замена масла</span><span>Ремонт ходовой</span><span>Чистка форсунок</span><span>Ремонт генераторов</span>
+      </div>
+    </section>
+
+    <!-- ================= REVIEW ================= -->
+    <section class="section" id="reviews">
+      <div class="container review-wrap">
+        <p class="eyebrow reveal">Клиенты</p>
+        <blockquote class="quote reveal">
+          «Приехали с проблемой АКПП: в другом месте загнули большую сумму
+          и долгий срок. Здесь провели точную диагностику, сразу озвучили
+          цену и срок. Починили за 5 дней — в итоге в два раза дешевле.»
+        </blockquote>
+        <p class="quote__author reveal">Денис Сафронов · отзыв на Яндекс.Картах</p>
+        <p class="quote__meta reveal">
+          Рейтинг <b>4,1</b> · 109 оценок ·
+          <a href="https://yandex.ru/maps/org/avtoekspert/59662041450/reviews/" target="_blank" rel="noopener">все отзывы ↗</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= INQUIRY ================= -->
+    <section class="section section--tint" id="inquiry">
+      <div class="container inquiry">
+        <div class="inquiry__text">
+          <p class="eyebrow reveal">Заявка</p>
+          <h2 class="h2 reveal">Оставьте авто —<br>остальное сделаем мы.</h2>
+          <p class="lead reveal">
+            Опишите проблему — перезвоним, подскажем по стоимости и запишем
+            на удобное время. Работаем Пн–Сб, 9:00–19:00.
+          </p>
+        </div>
+        <form class="form reveal" id="inquiryForm" novalidate>
+          <div class="form__row">
+            <label class="fline"><span>Имя *</span><input type="text" id="fName" required></label>
+            <label class="fline"><span>Телефон *</span><input type="tel" id="fPhone" placeholder="+7 (___) ___-__-__" inputmode="tel" required></label>
+          </div>
+          <label class="fline"><span>Авто (марка, год)</span><input type="text" id="fCar"></label>
+          <label class="fline"><span>Описание проблемы</span><textarea id="fMsg" rows="3"></textarea></label>
+          <button class="btn-cta form__submit" type="submit">Отправить заявку <span aria-hidden="true">→</span></button>
+          <p class="form__done" id="formDone" hidden>Принято! Перезвоним в рабочее время (Пн–Сб 9:00–19:00).</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTS + MAP ================= -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <p class="eyebrow reveal">Контакты</p>
+        <div class="contacts">
+          <div class="contacts__info reveal">
+            <div class="crow"><span class="crow__ic"><i data-lucide="map-pin"></i></span><div><b>Адрес</b><p>ул. Четаева, 16Б, Казань</p></div></div>
+            <div class="crow"><span class="crow__ic"><i data-lucide="phone"></i></span><div><b>Телефон</b><p><a href="tel:+78432393123">+7 (843) 239-31-23</a></p></div></div>
+            <div class="crow"><span class="crow__ic"><i data-lucide="clock"></i></span><div><b>Время работы</b><p>Пн–Сб 9:00–19:00 · Вс — выходной</p></div></div>
+            <div class="crow"><span class="crow__ic"><i data-lucide="credit-card"></i></span><div><b>Оплата</b><p>Банковская карта</p></div></div>
+          </div>
+          <div class="contacts__map reveal">
+            <img src="images/map.jpg" alt="Схема проезда: АвтоЭксперт — ул. Четаева, 16Б, Казань">
+            <a class="map-link" href="https://yandex.ru/maps/org/avtoekspert/59662041450/" target="_blank" rel="noopener">Построить маршрут в Яндекс.Картах <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="logo logo--dark">
+          <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="26" height="26"><path d="M14 20h36L22 44h28" stroke="currentColor" stroke-width="6" fill="none"/></svg></span>
+          <span class="logo-text">АвтоЭксперт</span>
+        </a>
+        <p>Автосервис и автотехцентр<br>в Казани. Пн–Сб 9:00–19:00.</p>
+      </div>
+      <div class="footer__col">
+        <b>Услуги</b>
+        <a href="#prices">Рулевые рейки</a>
+        <a href="#prices">АКПП · DSG · CVT</a>
+        <a href="#prices">Кузовной ремонт</a>
+        <a href="#prices">Диагностика</a>
+      </div>
+      <div class="footer__col">
+        <b>Компания</b>
+        <a href="#about">О сервисе</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <a href="https://yandex.ru/maps/org/avtoekspert/59662041450/" target="_blank" rel="noopener">Яндекс.Карты ↗</a>
+      </div>
+      <div class="footer__col">
+        <b>Контакты</b>
+        <p>ул. Четаева, 16Б, Казань</p>
+        <p><a href="tel:+78432393123">+7 (843) 239-31-23</a></p>
+        <p>Пн–Сб 9:00–19:00</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> АвтоЭксперт · Казань</span>
+      <span>Официальный автосервис · Предварительная запись</span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
