@@ -149,6 +149,7 @@ section { scroll-margin-top: calc(var(--header-h) + 10px); }
   color: var(--ink-soft);
   padding: 10px 14px;
   border-radius: 2px;
+  white-space: nowrap;
   background: linear-gradient(var(--lime), var(--lime)) no-repeat left bottom / 0 2px;
   transition: color .2s ease, background-size .3s ease;
 }
